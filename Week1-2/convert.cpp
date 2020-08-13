@@ -7,7 +7,7 @@ long convert(int n);
 int main() {
     int n;
     printf("Decimal Converter\nEnter a number: ");
-    scanf_s("%d", &n);
+    scanf("%d", &n);
     printf("%d (Decimal) is %ld (Binary)", n, convert(n));
     return 0;
 }
