@@ -14,11 +14,11 @@ int main() {
 
 long convert(int n) {
     long binary = 0;
-    int rmdr, i = 1;
+    int rem, i = 1;
     while (n != 0) {
-        rmdr = n % 2;
+        rem = n % 2;
         n /= 2;
-        binary += rmdr * i;
+        binary += rem * i;
         i *= 10;
     }
     return binary;
